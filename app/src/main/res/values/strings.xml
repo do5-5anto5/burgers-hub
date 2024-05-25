@@ -3,4 +3,5 @@
 
     <!--DetailsFragment-->
     <string name="fragment_details_title">Burger</string>
+    <string name="fragment_details_btn_back_description">back button</string>
 </resources>
