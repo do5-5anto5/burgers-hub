@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 class ServiceProvider {
 
-    private val baseUrl = ""
+    private val baseUrl = "https://burgers-hub.p.rapidapi.com/"
 
     private val client = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
