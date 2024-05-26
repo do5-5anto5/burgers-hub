@@ -40,7 +40,7 @@ class BurgerViewModel @Inject constructor(
         }
     }
 
-    fun getBurgerByName(id: Int) = liveData(Dispatchers.IO) {
+    fun getBurgerById(id: Int) = liveData(Dispatchers.IO) {
         try {
             emit(StateView.Loading())
 
@@ -60,7 +60,7 @@ class BurgerViewModel @Inject constructor(
         }
     }
 
-    fun getBurgerById(name: String) = liveData(Dispatchers.IO) {
+    fun getBurgerByName(name: String) = liveData(Dispatchers.IO) {
         try {
             emit(StateView.Loading())
 
