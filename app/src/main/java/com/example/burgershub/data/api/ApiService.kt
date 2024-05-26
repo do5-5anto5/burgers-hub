@@ -19,7 +19,7 @@ interface ApiService {
     : BurgerResponse
 
     @MOCK(asset = "burger_name.json", runDelay = true)
-    @GET("find-burger/")
+    @GET("find-burger")
     suspend fun getBurgerByName(
         @Query("search") burgerName: String)
     : List<BurgerResponse>
